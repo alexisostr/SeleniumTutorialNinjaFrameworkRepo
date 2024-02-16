@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tutorials Ninja Automation Suite">
+	<listeners>
+		<listener class-name="utilites.NinjiaListeners" />
+	</listeners>
+
+	<!--
+<test name="Ninjia Test Cases">
+		<classes>
+			<class name="tests.Login" />
+			<class name="tests.Register" />	
+			<class name="tests.Search" />		
+		</classes>
+	</test>
+
+-->
+	<test name="Login to  Account">
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Register new Account">
+		<classes>
+			<class name="tests.RegisterTest" />
+		</classes>
+	</test>
+
+	<test name="Search product">
+		<classes>
+			<class name="tests.SearchTest" />
+		</classes>
+	</test>
+
+</suite>

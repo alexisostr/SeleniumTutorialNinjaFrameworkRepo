@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-16T13:30:54 EST" name="Tutorials Ninja Automation Suite" finished-at="2024-02-16T13:32:20 EST" duration-ms="86359">
+    <groups>
+    </groups>
+    <test started-at="2024-02-16T13:30:54 EST" name="Login to  Account" finished-at="2024-02-16T13:31:33 EST" duration-ms="39303">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:30:55 EST" name="setUp" finished-at="2024-02-16T13:31:00 EST" duration-ms="5139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:00 EST" name="verifyLoginWithValidCredentials" data-provider="loginGetData" finished-at="2024-02-16T13:31:01 EST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alexostr1978@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OAO_oao05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:01 EST" name="tearDown" finished-at="2024-02-16T13:31:01 EST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:01 EST" name="setUp" finished-at="2024-02-16T13:31:07 EST" duration-ms="5820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidCredentials(java.lang.String)[pri:1, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:07 EST" name="verifyLoginWithInvalidCredentials" data-provider="loginGetInvalidData" finished-at="2024-02-16T13:31:08 EST" duration-ms="964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77777.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:08 EST" name="tearDown" finished-at="2024-02-16T13:31:08 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:08 EST" name="setUp" finished-at="2024-02-16T13:31:17 EST" duration-ms="9232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmaiAndValidPassword()[pri:2, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:17 EST" name="verifyLoginWithInvalidEmaiAndValidPassword" finished-at="2024-02-16T13:31:18 EST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmaiAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:18 EST" name="tearDown" finished-at="2024-02-16T13:31:19 EST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:19 EST" name="setUp" finished-at="2024-02-16T13:31:26 EST" duration-ms="7709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmaiAndInvalidPassword(java.lang.String)[pri:3, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:26 EST" name="verifyLoginWithValidEmaiAndInvalidPassword" data-provider="loginGetInvalidData" finished-at="2024-02-16T13:31:27 EST" duration-ms="856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77777.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmaiAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:27 EST" name="tearDown" finished-at="2024-02-16T13:31:27 EST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:27 EST" name="setUp" finished-at="2024-02-16T13:31:32 EST" duration-ms="4682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:4, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:32 EST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-02-16T13:31:33 EST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@663c9e7a]" started-at="2024-02-16T13:31:33 EST" name="tearDown" finished-at="2024-02-16T13:31:33 EST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login to  Account -->
+    <test started-at="2024-02-16T13:31:33 EST" name="Register new Account" finished-at="2024-02-16T13:32:01 EST" duration-ms="27430">
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:33 EST" name="setUp" finished-at="2024-02-16T13:31:39 EST" duration-ms="5845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterWithMandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:39 EST" name="verifyRegisterWithMandatoryFields" data-provider="registerGetData" finished-at="2024-02-16T13:31:41 EST" duration-ms="1756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babuin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.471012277E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:41 EST" name="tearDown" finished-at="2024-02-16T13:31:41 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:41 EST" name="setUp" finished-at="2024-02-16T13:31:47 EST" duration-ms="5395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterWithAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:47 EST" name="verifyRegisterWithAllFields" data-provider="registerGetData" finished-at="2024-02-16T13:31:48 EST" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babuin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.471012277E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:48 EST" name="tearDown" finished-at="2024-02-16T13:31:48 EST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:48 EST" name="setUp" finished-at="2024-02-16T13:31:54 EST" duration-ms="5411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterWithExistingEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:54 EST" name="verifyRegisterWithExistingEmail" data-provider="registerGetData" finished-at="2024-02-16T13:31:55 EST" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Babuin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.471012277E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:55 EST" name="tearDown" finished-at="2024-02-16T13:31:55 EST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:31:55 EST" name="setUp" finished-at="2024-02-16T13:32:00 EST" duration-ms="5003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterWithoutFillAnyDetails()[pri:3, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:32:00 EST" name="verifyRegisterWithoutFillAnyDetails" finished-at="2024-02-16T13:32:01 EST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithoutFillAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@3f4faf53]" started-at="2024-02-16T13:32:01 EST" name="tearDown" finished-at="2024-02-16T13:32:01 EST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+    </test> <!-- Register new Account -->
+    <test started-at="2024-02-16T13:32:01 EST" name="Search product" finished-at="2024-02-16T13:32:20 EST" duration-ms="19266">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:01 EST" name="setUp" finished-at="2024-02-16T13:32:06 EST" duration-ms="5414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithValidProduct(java.lang.String)[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:06 EST" name="verifySearchWithValidProduct" data-provider="searchGetData" finished-at="2024-02-16T13:32:07 EST" duration-ms="813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:07 EST" name="tearDown" finished-at="2024-02-16T13:32:07 EST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:07 EST" name="setUp" finished-at="2024-02-16T13:32:12 EST" duration-ms="4511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithInValidProduct(java.lang.String)[pri:1, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:12 EST" name="verifySearchWithInValidProduct" data-provider="searchGetInvalidData" finished-at="2024-02-16T13:32:14 EST" duration-ms="1773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:14 EST" name="tearDown" finished-at="2024-02-16T13:32:14 EST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:14 EST" name="setUp" finished-at="2024-02-16T13:32:20 EST" duration-ms="5837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:2, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:20 EST" name="verifySearchWithoutAnyProduct" finished-at="2024-02-16T13:32:20 EST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4a8355dd]" started-at="2024-02-16T13:32:20 EST" name="tearDown" finished-at="2024-02-16T13:32:20 EST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Search product -->
+  </suite> <!-- Tutorials Ninja Automation Suite -->
+</testng-results>
